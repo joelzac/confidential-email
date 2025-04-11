@@ -1,0 +1,33 @@
+#email {
+    margin: 50px auto;
+    padding: 50px;
+    width: 500px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: #fdf1e8;
+    font-family: 'Georgia', serif;
+    position: relative;
+  }
+  
+  #confidential,
+  #top-secret {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 20px;
+    border: 4px solid red;
+    color: red;
+    font-weight: bold;
+    font-size: 1.5em;
+    transform: rotate(-20deg);
+    background-color: white;
+  }
+  
+  #top-secret {
+    transform: rotate(20deg);
+    margin-top: 20px;
+  }
+  
+  .blurred {
+    filter: blur(3px);
+  }
+  
